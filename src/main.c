@@ -15,7 +15,7 @@ void menu()
     while(1){
         system("cls");
         vfnprintqueue();
-        printf("1.enqueue \n2.dequeue\n3.replace element\n4.checkqueue\n5.show queue\n6.quit\n");
+        printf("1.enqueue \n2.dequeue\n3.replace element\n4.checkqueue\n5.quit\n");
         scanf("%d",&iSelect);
         switch(iSelect)
         {
@@ -29,14 +29,13 @@ void menu()
                 printf("replace number ?\n");
                 scanf("%d",&k);
                 vfnreplace(k);
+                system("pause");
                 break;
             case 4:
                 vfncheckqueue();
+                system("pause");
                 break;
             case 5:
-                //vfnprintqueue();
-                break;
-            case 6:
                 printf("bye bye!!");
                 exit(0);
             default:

@@ -35,9 +35,12 @@ void vfnprintqueue(void)
     struct stQueue *entry;
     if(list_empty(&qhead))
     {
+        printf("--------------------------------------------\n");
         printf("empty queue\n");
+        printf("--------------------------------------------\n");
         return;
     }
+    printf("------------------------------------------------\n");
     printf("head=>");
     list_for_each(ptr, &qhead)
     {
@@ -51,6 +54,7 @@ void vfnprintqueue(void)
         }
     }
     printf("\n");
+    printf("----------------------------------------------------\n");
 }
 void vfnreplace(int num)
 {
@@ -77,6 +81,7 @@ void vfnreplace(int num)
         }
 
     }
+    printf("no target number\n");
 }
 void vfncheckqueue()
 {
