@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1320129372 source:c:\documents and settings\wayling.chen\my documents\assigmiment\homework\src\main.c
+	<stdio.h>
+	<stdlib.h>
+	"list.h"
+	"queue.h"
+
+1320129191 source:c:\documents and settings\wayling.chen\my documents\assigmiment\homework\src\queue.c
+	<stdio.h>
+	<stdlib.h>
+	"list.h"
+	"queue.h"
+
